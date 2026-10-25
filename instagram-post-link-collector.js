@@ -1,16 +1,3 @@
-/**
- * Instagram Post Link Collector
- *
- * COMO USAR:
- * 1. Abra um perfil público do Instagram no Firefox e faça login se necessário.
- * 2. Pressione Ctrl + Shift + K para abrir o console.
- * 3. Cole todo este script e pressione Enter.
- * 4. Mantenha a aba aberta até o arquivo .txt ser gerado.
- *
- * Este script coleta links de posts e Reels exibidos ao rolar a página.
- * Ele não baixa mídias, não acessa senhas/cookies e não garante 100% do histórico.
- */
-
 (async () => {
   const perfil = window.location.pathname.split("/").filter(Boolean)[0];
 
